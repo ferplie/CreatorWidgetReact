@@ -4,7 +4,11 @@ import { useState, useEffect, useRef } from "react";
 import Spinner from "./Components/Spinner";
 
 function App() {
-  useEffect(() => {});
+  // useEffect(() => {
+  //   ZOHO.CREATOR.init().then(function (data) {
+  //     //Code goes here
+  //   });
+  // });
 
   return (
     <div className="App">
