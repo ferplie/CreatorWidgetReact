@@ -16,7 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "zet": "webpack --mode production && zet validate && zet pack"
   },
   "eslintConfig": {
     "extends": [
@@ -50,5 +51,12 @@
     "webpack-bundle-analyzer": "^4.7.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
+  },
+  "react-scripts": {
+    "babel": {
+      "presets": [
+        "@babel/preset-react"
+      ]
+    }
   }
 }
